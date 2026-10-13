@@ -1,0 +1,15 @@
+# VS Code local history
+.history/
+
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Keep example environment configuration if needed
+!.env.example

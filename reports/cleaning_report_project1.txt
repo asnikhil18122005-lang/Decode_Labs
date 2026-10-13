@@ -1,0 +1,49 @@
+
+Data Analy-tics Project 1 - Cleaning Report
+
+Original rows: 1200
+Final rows: 1200
+
+Missing values before cleaning:
+OrderID              0
+Date                 0
+CustomerID           0
+Product              0
+Quantity             0
+UnitPrice            0
+ShippingAddress      0
+PaymentMethod        0
+OrderStatus          0
+TrackingNumber       0
+ItemsInCart          0
+CouponCode         309
+ReferralSource       0
+TotalPrice           0
+dtype: int64
+
+Missing values after cleaning:
+OrderID            0
+Date               0
+CustomerID         0
+Product            0
+Quantity           0
+UnitPrice          0
+ShippingAddress    0
+PaymentMethod      0
+OrderStatus        0
+TrackingNumber     0
+ItemsInCart        0
+CouponCode         0
+ReferralSource     0
+TotalPrice         0
+dtype: int64
+
+Duplicate full rows found: 0
+Duplicate OrderID values found: 0
+TotalPrice mismatches corrected: 0
+
+Final duplicate OrderID count: 0
+Final incorrectly formatted date count: 0
+
+Output Excel file: C:\Users\acer\OneDrive\Documents\Desktop\Decode_Labs\data\cleaned\cleaned_orders_project1.xlsx
+Output CSV file: C:\Users\acer\OneDrive\Documents\Desktop\Decode_Labs\data\cleaned\cleaned_orders_project1.csv
